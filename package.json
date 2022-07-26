@@ -2,7 +2,7 @@
   "name": "bbsapui5fiori",
   "version": "1.0.0",
   "description": "BB UI5 Fiori Application",
-  "main": "index.html",
+  "main": "webapp/index.html",
   "repository": "https://github.com/barisbt/bbsapui5fiori.git",
   "author": "barisbt",
   "license": "MIT",
@@ -10,11 +10,7 @@
   "scripts": {
     "dev": "browser-sync start -s \"webapp/\" -f . --no-notify",
     "prod": "browser-sync start -s \"dist/\" -f . --no-notify",
-
-    "devx":     "browser-sync start --server  \"webapp/\"  . -w   --no-notify --port 3012",
-
     "devxy":     "browser-sync start --server \"webapp/\" -f . --no-notify",
-
     "devxx":     "browser-sync start --config bs-config.js",
 
     "build": "ui5 build"
