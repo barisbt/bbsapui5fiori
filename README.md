@@ -13,6 +13,7 @@ SAP UI5 Fiori node try
 * check one note tag : bbvscodeui5howto for detail steps
 
 * 02 version
+  * .gitignore added
   * bbvscodeui5howto tag for details
   * approuter configured
   * xssecurity configured
