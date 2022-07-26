@@ -13,9 +13,11 @@ SAP UI5 Fiori node try
 # details
 * check one note tag : bbvscodeui5howto for detail steps
 
-* 03 version
+* 03 version (in commits)
+  *
   * 
-  * translatable text internationalization (committe)
+  * components - how to 
+  * translatable text internationalization (committed)
   * get from odata binding to textfield ..
 
 * 02 version
