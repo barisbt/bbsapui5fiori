@@ -14,7 +14,9 @@ SAP UI5 Fiori node try
 * check one note tag : bbvscodeui5howto for detail steps
 
 * 03 version
-  * started ..
+  * 
+  * translatable text internationalization (committe)
+  * get from odata binding to textfield ..
 
 * 02 version
   * .gitignore added (may be mixed with 01)
