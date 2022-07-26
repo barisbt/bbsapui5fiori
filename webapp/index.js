@@ -1,3 +1,7 @@
+
+// this file is no longer used as manifest is now in webapp/manifest.json and used
+
+
 sap.ui.define([
 	"sap/ui/core/ComponentContainer"
 ], function (ComponentContainer) {

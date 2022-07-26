@@ -15,7 +15,7 @@ SAP UI5 Fiori node try
 
 * 03 version (in commits)
   *
-  * 
+  * manifest.json added.. descriptor 
   * components - how to 
   * translatable text internationalization (committed)
   * get from odata binding to textfield ..
