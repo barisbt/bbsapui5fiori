@@ -14,6 +14,7 @@ SAP UI5 Fiori node try
 * check one note tag : bbvscodeui5howto for detail steps
 
 * 03 version (in commits)
+  * margins and paddings
   * shell container
   * adding panel
   * manifest.json added.. descriptor 
