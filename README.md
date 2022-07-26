@@ -14,7 +14,8 @@ SAP UI5 Fiori node try
 * check one note tag : bbvscodeui5howto for detail steps
 
 * 03 version (in commits)
-  *
+  * 
+  * adding panel
   * manifest.json added.. descriptor 
   * components - how to 
   * translatable text internationalization (committed)
