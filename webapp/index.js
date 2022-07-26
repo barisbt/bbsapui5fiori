@@ -5,7 +5,7 @@ sap.ui.define([
 	console.log("<<<<<<<<<<<<<<<------------------------- BB 1---------------------------------->>>>>>>>>>>>>>: bbsapui5fiori index.js");
 
 	XMLView.create({
-		viewName: "solutions.blackbelt.bbsapui5fiori.view.App"
+		viewName: "sap.ui.demo.walkthrough.view.App"
 	}).then(function (oView) {
 		oView.placeAt("content");
 	});

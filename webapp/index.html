@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>*** BB SAP UI5 Fiori ***</title>
+	<title>SAPUI5 Walkthrough</title>
 	<script
 		id="sap-ui-bootstrap"
 		src="https://sdk.openui5.org/resources/sap-ui-core.js"
@@ -10,14 +10,12 @@
 		data-sap-ui-libs="sap.m"
 		data-sap-ui-compatVersion="edge"
 		data-sap-ui-async="true"
-		data-sap-ui-onInit="module:webapp/index"
 		data-sap-ui-resourceroots='{
-			"solutions.blackbelt.bbsapui5fiori": "./",
-			"webapp": "./"
-		}'>
+			"sap.ui.demo.walkthrough": "./"
+		}'
+		data-sap-ui-oninit="module:sap/ui/demo/walkthrough/index">
 	</script>
 </head>
 <body class="sapUiBody" id="content">
 </body>
-
 </html>
