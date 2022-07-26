@@ -1,0 +1,35 @@
+_schema-version: "2.0.0"
+ID: bbsapui5fiori
+version: 0.0.1
+modules:
+  - name: bbsapui5fiori
+    type: html5
+    path: webapp
+    build-parameters:
+      builder: custom  
+      commands:
+         - npm install
+      timeout: 15m
+      supported-platforms: []
+  - name: bbsapui5fiori-approuter
+    type: nodejs
+    path: approuter
+    requires:
+    - name: bbsapui5fiori-xsuaa
+    build-parameters:
+      requires:
+        - name: bbsapui5fiori
+          artifacts:
+          - ./*
+          target-path: resources
+      ignore: ["node_modules/"]
+resources:
+    ### XSUAA service instance      
+  - name: bbsapui5fiori-xsuaa
+    parameters:
+      path: ./xs-security.json  
+      service: xsuaa    
+      service-plan: application
+      service-keys: 
+        - name: bbsapui5fiori-xsuaa-key      
+    type: com.sap.xs.uaa    

@@ -1,0 +1,21 @@
+{
+    "xsappname": "bbsapui5fiori",
+    "tenant-mode": "dedicated", 
+    "scopes": [
+      {
+        "name": "$XSAPPNAME.bbsapui5fioriREADER_SCOPE",
+        "description": "bbsapui5fioriREADER_SCOPE"
+      }
+    ],
+    "attributes": [],
+    "role-templates": [
+      {
+        "name": "bbsapui5fiori_ReaderRoleTemplate",
+        "description": "generated bbsapui5fiori_ReaderRoleTemplate",
+        "scope-references": [
+          "$XSAPPNAME.bbsapui5fioriREADER_SCOPE"
+        ],
+        "attribute-references": []
+      }
+    ]
+  }

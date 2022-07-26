@@ -14,5 +14,8 @@
     "devxx":     "browser-sync start --config bs-config.js",
 
     "build": "ui5 build"
+  },
+  "dependencies": {
+    "passport": "^0.6.0"
   }
 }

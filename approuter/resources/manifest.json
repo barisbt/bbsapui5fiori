@@ -1,0 +1,6 @@
+{
+    "sap.app":{
+      "id":"sapxxx.ui.demo.bbsapui5fiori",
+      "type":"application"
+    }
+  }
