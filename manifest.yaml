@@ -1,0 +1,9 @@
+---
+applications:
+- name: bbsapui5fiori
+  memory: 128M
+  buildpack: nodejs_buildpack
+- name: bbsapui5fiori-approuter
+  ## path: bbwalkthrough
+  memory: 128M
+  buildpack: nodejs_buildpack
