@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "browser-sync start -s \"webapp/\" -f . --no-notify",
+    "dev": "browser-sync start -s \"webapp/\" -f . --no-notify --no-inject-changes",
     "prod": "browser-sync start -s \"dist/\" -f . --no-notify",
     "devxy":     "browser-sync start --server \"webapp/\" -f . --no-notify",
     "devxx":     "browser-sync start --config bs-config.js",

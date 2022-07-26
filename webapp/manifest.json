@@ -1,6 +1,6 @@
 {
-  "sap.app": {
-    "id":"sap.ui.demo.bbsapui5fiori",
-    "type": "application"
+    "sap.app":{
+      "id":"sapxxx.ui.demo.bbsapui5fiori",
+      "type":"application"
+    }
   }
-}

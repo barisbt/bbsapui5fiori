@@ -1,6 +1,6 @@
-//@ui5-bundle solutions/blackbelt/Component-preload.js
+//@ui5-bundle sap/ui/demo/bbsapui5fiori/Component-preload.js
 jQuery.sap.registerPreloadedModules({
 "version":"2.0",
 "modules":{
-	"solutions/blackbelt/manifest.json":'{"sap.app":{"id":"solutions.blackbelt","type":"application"}}'
+	"sap/ui/demo/bbsapui5fiori/manifest.json":'{"sap.app":{"id":"sap.ui.demo.bbsapui5fiori","type":"application"}}'
 }});
