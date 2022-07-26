@@ -3,6 +3,7 @@ SAP UI5 Fiori node try
 
 * **Branches**
 
+* 03 : Starting small feautures
 * 02 : CLOUD READY cloud deployment done (security-app router ok) STABLE
 * 01 : LOCAL READY local browser sync ok STABLE
 
@@ -11,6 +12,9 @@ SAP UI5 Fiori node try
 
 # details
 * check one note tag : bbvscodeui5howto for detail steps
+
+* 03 version
+  * started ..
 
 * 02 version
   * .gitignore added (may be mixed with 01)
